@@ -15,7 +15,7 @@ def get_price(url):
 
     return price_with_eur
 
-#   Si no hay url se para el programa, si hay url llamamos a la función para obtener el precio.
+#   Si no hay url se para el programa, si hay url llamamos a la función get_price para obtener el precio.
 
 while True : 
 
