@@ -1,13 +1,11 @@
-#   Página que scrappeamos --> piensoymascotas.com
+#   Queremos scrappear la página piensoymascotas.com
 
-#   Instalamos librerías --> pip install requests bs4
-
-#   Las importamos 
+#   pip install requests bs4
 
 import requests
 from bs4 import BeautifulSoup
 
-#   Función para obtener el precio
+#   Función para obtener el precio. Indicamos la clase html que contiene el valor del precio.
 
 def get_price(url):
     
@@ -17,7 +15,7 @@ def get_price(url):
 
     return price_with_eur
 
-#   Si no hay url se para el programa, si hay url llamamos a la función para obtener el precio
+#   Si no hay url se para el programa, si hay url llamamos a la función para obtener el precio.
 
 while True : 
 
